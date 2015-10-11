@@ -104,3 +104,36 @@ a.dp-text-green:hover {
     color: #8DC73F;
     text-decoration: underline;
 }
+
+/************************************************/
+/*********** Partners ***************************/
+#partners > div {
+    /*
+        display: inline-block;
+
+        margin: 0 60px;
+
+        display: flex;
+        */
+}
+#partners .thumbnail {
+    width: 17%;
+    float: left;
+    margin: 0 1.8763%
+}
+
+#partners .thumbnail:first-child {
+    margin-left: 0;
+}
+
+#partners .thumbnail:last-child {
+    margin-right: 0;
+}
+
+#partners .thumbnail img {
+    width: 120px;
+    height: 100px;
+}
+
+
+/***********************************************/
