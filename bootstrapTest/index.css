@@ -1,0 +1,106 @@
+/************* NAVBAR ***********/
+
+.navbar {
+    margin: 0;
+    border: 0;
+    min-height: 0;
+}
+.navbar-inner {
+    background-color: #8DC73F;
+}
+
+.navbar .nav  a {
+    color: white;
+}
+.nav-pills > li {
+    display: inline-block;
+    float: none;
+}
+.nav.nav-pills {
+    margin: 0 auto;
+    width: 800px;
+    text-align: right;
+}
+
+.nav-pills > li.active > a, .nav > li > a:hover,
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
+    background-color: greenyellow;
+}
+
+
+/**************** H1-lines **********************/
+
+.heading-lines-around > span {
+
+}
+
+h1.heading-lines-around {
+    position: relative;
+    text-align: center;
+}
+
+h1.heading-lines-around span {
+    background: #fff;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+}
+
+h1.heading-lines-around:before {
+    background: #ddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 49%;
+    width: 100%;
+}
+
+h1.heading-lines-around:before {
+    left: 0;
+}
+
+
+/*************************************/
+
+#carousel-example-generic, .carousel-inner {
+    width: auto;
+    height: 400px;
+}
+
+
+/************ Promo Product ******************/
+
+.dp-promo-product-rapper {
+    padding: 20px;
+    background-color: #8DC73F;
+    color: white;
+}
+
+.dp-promo-product-rapper > h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dp-promo-product-rapper > img {
+    float: right;
+    margin-top: 30px;
+}
+
+/*******************************************/
+/***************** Top NEWs ****************/
+#top-news-pic {
+    margin-top: 40px;
+}
+
+/*******************************************/
+/********** Color green button *************/
+
+.dp-text-green {
+    color: #8DC73F;
+}
+
+a.dp-text-green:hover {
+    color: #8DC73F;
+    text-decoration: underline;
+}
