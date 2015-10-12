@@ -16,9 +16,9 @@
     display: inline-block;
     float: none;
 }
-.nav.nav-pills {
+#nav .nav.nav-pills {
     margin: 0 auto;
-    width: 800px;
+    width: 1200px;
     text-align: right;
 }
 
@@ -29,9 +29,8 @@
 
 
 /**************** H1-lines **********************/
-
-.heading-lines-around > span {
-
+h1 {
+    font-size: 25px;
 }
 
 h1.heading-lines-around {
@@ -47,10 +46,10 @@ h1.heading-lines-around span {
 }
 
 h1.heading-lines-around:before {
-    background: #ddd;
+    background: #8DC73F;
     content: "";
     display: block;
-    height: 1px;
+    height: 1.4px;
     position: absolute;
     top: 49%;
     width: 100%;
@@ -90,7 +89,7 @@ h1.heading-lines-around:before {
 /*******************************************/
 /***************** Top NEWs ****************/
 #top-news-pic {
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 /*******************************************/
@@ -137,3 +136,31 @@ a.dp-text-green:hover {
 
 
 /***********************************************/
+
+section {
+    padding: 25px 0;
+}
+
+section .heading-lines-around {
+    margin-bottom: 40px;
+}
+
+/************* FOOTER **************************/
+#footer {
+    margin-top: 80px;
+}
+
+ #footer .nav-pills img {
+     width: 30px;
+ }
+
+ #footer .nav-pills > img {
+     width: 160px;
+     margin-right: 20px;
+}
+
+ #footer .nav-pills {
+     text-align: center;
+     padding: 30px 0;
+ }
+/********************************************/
