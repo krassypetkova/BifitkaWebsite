@@ -32,14 +32,14 @@ h1 {
     font-size: 25px;
 }
 
-h1.heading-lines-around {
+h1.heading-lines-around, h1.heading-lines-around-hw {
     position: relative;
     text-align: center;
 }
 
-h1.heading-lines-around span {
+h1.heading-lines-around span, h1.heading-lines-around-hw span {
     background: #fff;
-    padding: 0 15px;
+    padding: 0 30px;
     position: relative;
     z-index: 1;
 }
@@ -51,12 +51,20 @@ h1.heading-lines-around:before {
     height: 2px;
     position: absolute;
     top: 49%;
+    width: 50%;
+    right: 25%;
+}
+h1.heading-lines-around-hw:before {
+    background: #8DC73F;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 49%;
     width: 100%;
+    right: 0;
 }
 
-h1.heading-lines-around:before {
-    left: 0;
-}
 
 h1.heading-lines-around > span {
 
@@ -149,7 +157,7 @@ section {
     padding: 25px 0;
 }
 
-section .heading-lines-around {
+section .heading-lines-around, section .heading-lines-around-hw {
     margin-bottom: 40px;
 }
 
