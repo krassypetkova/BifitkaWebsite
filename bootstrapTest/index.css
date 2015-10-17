@@ -1,17 +1,74 @@
 /************* NAVBAR ***********/
 
-.navbar {
+.navbar, .navbar-inverse {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+}
+
+.nav li {
+    display: inline;
+    color: white;
+}
+
+.navbar-nav > li > a {
+    line-height: inherit;
+}
+.navbar-inverse {
+    background-color: #8DC73F;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 15px;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #8DC73F;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #72a330;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    background-color: #72a330;
+    transition: 0.7s all linear;
+    height: 100%;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #80b735;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #72a330;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #72a330;
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: #72a330;
+}
+
+.navbar-inner, .navbar-default {
+    background-color: #8DC73F;
+}
+/* .navbar {
     margin: 0;
     border: 0;
     min-height: 0;
 }
-.navbar-inner {
+.navbar-default {
     background-color: #8DC73F;
 }
 
 .navbar .nav  a {
     color: white;
-}
+}lls > li.active > a:focu
 .nav-pills > li {
     display: inline-block;
     float: none;
@@ -21,10 +78,14 @@
     text-align: right;
 }
 
+.nav-pis {
+    background-color: forestgreen;
+}
+
 .nav-pills > li.active > a, .nav > li > a:hover,
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover {
     background-color: greenyellow;
-}
+} */
 /**************************************************/
 
 /**************** H1-lines **********************/
@@ -69,14 +130,17 @@ h1.heading-lines-around-hw:before {
 h1.heading-lines-around > span {
 
 }
-/*************************************/
+/************** Carousel ***********************/
 
-
-#carousel-example-generic, .carousel-inner {
+/*#carousel-example-generic, .carousel-inner {
     width: auto;
     height: 400px;
+}*/
+#carousel-example-generic .item > img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
 }
-
 
 /************ Promo Product ******************/
 
@@ -97,13 +161,13 @@ h1.heading-lines-around > span {
 }
 
 .btn-default:focus {
-    color: forestgreen;
+    color: #64902a;
 }
 /*******************************************/
 
 /***************** Top NEWs ****************/
 a:focus {
-    color: forestgreen;
+    color: #64902a;
 }
 
 #top-news-pic {
@@ -114,11 +178,11 @@ a:focus {
 /********** Color green button *************/
 
 .dp-text-green {
-    color: #8DC73F;
+    color: #64902a;
 }
 
 a.dp-text-green:hover {
-    color: #8DC73F;
+    color: #64902a;
     text-decoration: underline;
 }
 /************************************************/
@@ -151,7 +215,7 @@ a.dp-text-green:hover {
     width: 120px;
     height: 100px;
 }
-/***********************************************/
+/**************** SECTIONs *******************************/
 
 section {
     padding: 25px 0;
@@ -188,6 +252,6 @@ a.thumbnail:hover {
 }
 
 a.thumbnail:focus {
-    border-color: forestgreen;
+    border-color: #64902a;
 }
 /**************************************************/
