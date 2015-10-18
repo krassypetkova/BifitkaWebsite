@@ -115,6 +115,19 @@ h1.heading-lines-around:before {
     width: 50%;
     right: 25%;
 }
+
+@media (max-width: 768px) {
+    h1.heading-lines-around:before {
+        width: 100%;
+        right: 0;
+    }
+
+    h1.heading-lines-around span, h1.heading-lines-around-hw span {
+        padding: 0 10px;
+    }
+}
+
+
 h1.heading-lines-around-hw:before {
     background: #8DC73F;
     content: "";
@@ -130,6 +143,8 @@ h1.heading-lines-around-hw:before {
 h1.heading-lines-around > span {
 
 }
+
+
 /************** Carousel ***********************/
 
 /*#carousel-example-generic, .carousel-inner {
@@ -213,7 +228,7 @@ a.dp-text-green:hover {
 
 #partners .thumbnail img {
     width: 120px;
-    height: 100px;
+    /*height: 100px;*/
 }
 /**************** SECTIONs *******************************/
 
