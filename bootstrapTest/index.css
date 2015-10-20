@@ -1,3 +1,8 @@
+/*******************************/
+.container {
+    font-family: Roboto;
+}
+
 /************* NAVBAR ***********/
 
 .navbar, .navbar-inverse {
@@ -97,7 +102,6 @@ h1.heading-lines-around, h1.heading-lines-around-hw {
     position: relative;
     text-align: center;
 }
-
 h1.heading-lines-around span, h1.heading-lines-around-hw span {
     background: #fff;
     padding: 0 30px;
@@ -146,7 +150,29 @@ h1.heading-lines-around > span {
 
 
 /************** Carousel ***********************/
-
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
 /*#carousel-example-generic, .carousel-inner {
     width: auto;
     height: 400px;
@@ -215,7 +241,8 @@ a.dp-text-green:hover {
 #partners .thumbnail {
     /*width: 17%;*/
     float: left;
-    margin: 0 1.8763%
+    margin: 0 1.8763%;
+
 }
 
 #partners .thumbnail:first-child {
@@ -269,4 +296,50 @@ a.thumbnail:hover {
 a.thumbnail:focus {
     border-color: #64902a;
 }
-/**************************************************/
+/****************** FOR US video ********************************/
+.video-frontpage {
+    min-height: 40vh;
+    max-height: 50vh;
+}
+ /****************************************************************/
+
+
+
+
+
+
+/************************ Buutons green index2 *******************/
+.button-top-products {
+    color: white;
+    background-color: #8DC73F;
+    border-bottom: 4px solid #bcde8e;
+    border-radius: 0;
+
+}
+/*****************************************************************/
+/***************** Subtitle Paragraph-name food index2  ***************************/
+.bowwow-name-food {
+    font-weight: bold;
+}
+/*************************Info paragraph ***************************/
+.info-paragraph {
+    color: #999999;
+}
+
+/*******************************************************/
+.no-border {
+    border: none;
+}
+
+/***************big-p-topprod *********************************/
+.big-p-top-products {
+    font-size: 40px;
+    color:  #8DC73F;
+    position: relative;
+    top: -30px;
+
+}
+/***************/
+.btn-default:hover {
+    background-color: #8DC73F;
+}

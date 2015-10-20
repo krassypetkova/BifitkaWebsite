@@ -2,10 +2,12 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1">
     <title>Eco Pets</title>
     <link href="./bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="hover.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <style></style>
 </head>
 
@@ -133,7 +135,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>-->
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -176,6 +178,63 @@
     <div class="container">
 
         <section id="top-products">
+            <h1 class="heading-lines-around"><span>ВКУСНИ ЛАКОМСТВА</span></h1>
+            <h2 class="text-center big-p-top-products">ЗА НАЙ-ДОБРИТЕ НИ ПРИЯТЕЛИ</h2>
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail no-border">
+                        <img src="./img/prodd1.jpg" alt="...">
+                        <div class="caption text-center">
+                            <h4>BOW WOW | Лакомство</h4>
+                            <p class="bowwow-name-food">Триъгълник с калций и <br> птичи дроб</p>
+                            <p class="info-paragraph"> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a href="#" class="btn btn-default button-top-products" role="button">ВИЖТЕ ПОВЕЧЕ</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail no-border">
+                        <img src="./img/prodd2.jpg" alt="...">
+                        <div class="caption text-center">
+                            <h4>BOW WOW | Лакомство</h4>
+                            <p class="bowwow-name-food">Триъгълник с калций и <br> птичи дроб</p>
+                            <p class="info-paragraph"> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a href="#" class="btn btn-default button-top-products" role="button">ВИЖТЕ ПОВЕЧЕ</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail no-border">
+                        <img src="./img/prodd3.jpg" alt="...">
+                        <div class="caption text-center">
+                            <h4>BOW WOW | Лакомство</h4>
+                            <p class="bowwow-name-food">Триъгълник с калций и <br> птичи дроб</p>
+                            <p class="info-paragraph"> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a href="#" class="btn btn-default button-top-products" role="button">ВИЖТЕ ПОВЕЧЕ</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail no-border">
+                        <img src="./img/prodd4.jpg" alt="...">
+                        <div class="caption text-center">
+                            <h4>BOW WOW | Лакомство</h4>
+                            <p class="bowwow-name-food">Триъгълник с калций и <br> птичи дроб</p>
+                            <p class="info-paragraph"> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a href="#" class="btn btn-default button-top-products" role="button">ВИЖТЕ ПОВЕЧЕ</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!-- <section id="top-products">
             <h1 class="heading-lines-around"><span>ТОП ПРОДУКТИ</span></h1>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
@@ -199,7 +258,9 @@
                     </a>
                 </div>
             </div>
-        </section>
+        </section>-->
+
+
 
         <section id="for-us">
             <h1 class="heading-lines-around"><span>ЗА НАС</span></h1>
@@ -214,7 +275,7 @@
                         mollit anim id est laborum.
                     </p>
                 </div>
-                <iframe class="col-md-5" height="200px" src="https://www.youtube.com/embed/Ez2OSSgCMlM" frameborder="0" allowfullscreen></iframe>
+                <iframe class="col-xs-12 col-sm-12 col-md-5 video-frontpage"  src="https://www.youtube.com/embed/Ez2OSSgCMlM" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
 
@@ -300,5 +361,24 @@
 
     <script src="./bower_components/jquery/dist/jquery.js"></script>
     <script src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $(document).on('click',function(){
+            $('.collapse').collapse('hide');
+        });
+
+        (function($){
+            $(document).ready(function(){
+                $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    $(this).parent().siblings().removeClass('open');
+                    $(this).parent().toggleClass('open');
+                });
+            });
+        })(jQuery);
+
+    </script>
+
+
 </body>
 </html>
