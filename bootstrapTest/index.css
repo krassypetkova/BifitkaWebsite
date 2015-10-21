@@ -308,6 +308,8 @@ a.thumbnail:focus {
 
 
 
+
+/* ////////////////////// TOP PRODUCTS ///////////////////////////*/
 /************************ Buutons green index2 *******************/
 .button-top-products {
     color: white;
@@ -321,7 +323,7 @@ a.thumbnail:focus {
 .bowwow-name-food {
     font-weight: bold;
 }
-/*************************Info paragraph ***************************/
+/************************* Info paragraph ***************************/
 .info-paragraph {
     color: #999999;
 }
@@ -331,7 +333,7 @@ a.thumbnail:focus {
     border: none;
 }
 
-/***************big-p-topprod *********************************/
+/*************** big-p-topprod *********************************/
 .big-p-top-products {
     font-size: 40px;
     color:  #8DC73F;
@@ -343,3 +345,24 @@ a.thumbnail:focus {
 .btn-default:hover {
     background-color: #8DC73F;
 }
+/*/////////////////////////////////////////////////////////////////////*/
+
+/* //////////////////////// CAROUSEL //////////////////////////////////// */
+.carousel-transparent-line-top {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 4%;
+    background-color: rgba(114, 163, 48, 0.3);
+    z-index: 1;
+}
+
+.carousel-transparent-line-bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 5%;
+    background-color: rgba(255,255,255,0.3);
+    z-index: 1;
+}
+/* ////////////////////////////////////////////////////////////////////// */
