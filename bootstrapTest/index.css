@@ -20,27 +20,31 @@
     line-height: inherit;
 }
 .navbar-inverse {
-    background-color: #8DC73F;
+    background-color: #FFFFFF;
+    border-top: 12px solid #80b735;
 }
 .navbar-inverse .navbar-nav > li > a {
-    color: #ffffff;
+    color: #656565;
     font-size: 1.1em;
     font-weight: 300;
     padding: 15px;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-    background-color: #8DC73F;
+    background-color: #FFFFFF;
+    color: #80b735;
+
 }
 
 .navbar-inverse .navbar-nav > .active > a:hover {
-    background-color: #72a330;
+    background-color: #FFFFFF;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-    background-color: #72a330;
+    color: #656565;
+    /*background-color: #72a330;
     transition: 0.7s all linear;
-    height: 100%;
+    height: 100%;*/
 }
 
 .navbar-inverse .navbar-toggle {
@@ -242,7 +246,7 @@ a.dp-text-green:hover {
     /*width: 17%;*/
     float: left;
     margin: 0 1.8763%;
-
+    border: none;
 }
 
 #partners .thumbnail:first-child {
@@ -316,45 +320,48 @@ a.thumbnail:focus {
     background-color: #8DC73F;
     border-bottom: 4px solid #bcde8e;
     border-radius: 0;
-
 }
 
+.btn-default:hover {
+    background-color: #8DC73F;
+}
 /******************* Background color ********************************/
 .background-color-section {
-    background-color: #EFF2F6;
+    background-color: #F6F2EF;
 }
-/*****************************************************************/
-/* ////////////////////// TOP PRODUCTS ///////////////////////////*/
-.top-products-h1 {
+/*********************** Gray heading + big green heading ******************************************/
+.gray-heading {
     font-size: 26px;
     color: #999999;
 }
-/***************** Subtitle Paragraph-name food index2  ***************************/
-.bowwow-name-food {
-    font-weight: bold;
-}
-/************************* Info paragraph ***************************/
-.info-paragraph {
-    color: #999999;
-}
 
-/*******************************************************/
-.no-border {
-    border: none;
-}
-
-/*************** big-p-topprod *********************************/
-.big-p-top-products {
+.big-green-heading {
     font-size: 40px;
     color:  #8DC73F;
     position: relative;
     top: -30px;
 
 }
-/***************/
-.btn-default:hover {
-    background-color: #8DC73F;
+/*********************** Ingo paragraph for food *******************/
+.info-paragraph {
+    color: #999999;
 }
+
+
+
+/* ////////////////////// tasty-treats ///////////////////////////*/
+
+/***************** Subtitle Paragraph-name food index2  ***************************/
+.bowwow-name-food {
+    font-weight: bold;
+}
+
+/********************* no border pics **********************************/
+.no-border {
+    border: none;
+}
+/***************/
+
 /*/////////////////////////////////////////////////////////////////////*/
 
 /* //////////////////////// CAROUSEL //////////////////////////////////// */
@@ -395,3 +402,84 @@ a.thumbnail:focus {
     text-align: justify;
 }
 /* ///////////////////////////////////////////////////////////////////// */
+
+/* /////////////////////////// Promo Products /////////////////////// */
+.bowwow-name-food-promo-products {
+    font-size: 14px;
+    font-weight: bold;
+}
+/* ////////////////////////////////////////////////////////////////// */
+
+/* /////////////////////////// Curious Events///////////////////////// */
+#curiouse-events-heading {
+    text-align: center;
+}
+
+.current-events-h3 {
+    font-size: 35px;
+    color: #746256;
+    font-weight: bold;
+}
+
+.curiouse-h2 {
+    font-size: 23px;
+    color: #999999;
+}
+
+.img-curiouse-events {
+    width: 100%;
+    height: 100%;
+}
+
+.curiouse-events-green-div {
+    background-color: rgba(141,199,63,0.8);
+    text-align: center;
+    position: absolute;
+    bottom: 34px;
+    right: 15px;
+    color: #FFFFFF;
+    width: 420px;
+    height: 85px;
+}
+
+.curiouse-events-hr1 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 80%;
+    border-top: 1px solid #FFFFFF;
+}
+
+.curiouse-events-top-news-h3 {
+    margin-top: 10px;
+}
+
+.curiouse-events-last-news-p {
+    font-size: 18px;
+}
+
+.curiouse-events-title-news-h4 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #8DC73F;
+
+}
+
+.curiouse-events-hr2 {
+    border-top: 1px solid #999999;
+    width: 40%;
+    margin-left: 0px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.curiouse-events-date-time {
+    color: #6A7080;
+}
+
+.curiouse-events-time {
+    color: #8DC73F;
+    position: absolute;
+    left: 104px;
+    bottom: 0px;
+}
+/* ///////////////////////////////////////////////////////////// */
