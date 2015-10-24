@@ -1,10 +1,12 @@
 /*******************************/
-.container {
+html, body {
     font-family: Roboto;
 }
 
 /************* NAVBAR ***********/
-
+#dogs-navbar-header > .container {
+    padding: 17px 0;
+}
 .navbar, .navbar-inverse {
     border-radius: 0;
     border: none;
@@ -40,6 +42,11 @@
     background-color: #FFFFFF;
 }
 
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    color: #80b735;
+}
+
 .navbar-inverse .navbar-nav li a:hover {
     color: #656565;
     /*background-color: #72a330;
@@ -65,6 +72,10 @@
 
 .navbar-inner, .navbar-default {
     background-color: #8DC73F;
+}
+
+.navbar-nav .hvr-underline-from-center:before {
+    background: #80b735;
 }
 /* .navbar {
     margin: 0;
@@ -182,7 +193,7 @@ h1.heading-lines-around > span {
     height: 400px;
 }*/
 #carousel-example-generic .item > img {
-    height: 400px;
+    height: 580px;
     width: 100%;
     object-fit: cover;
 }
@@ -483,3 +494,5 @@ a.thumbnail:focus {
     bottom: 0px;
 }
 /* ///////////////////////////////////////////////////////////// */
+
+
