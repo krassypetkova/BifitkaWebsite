@@ -373,7 +373,15 @@ a.thumbnail:focus {
 }
 /***************/
 
-/*/////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////// BOW WOW type treats - title /////////////////////////////////////////*/
+.tasty-treats-bowwow-p {
+    font-weight: bolder;
+}
+
+.tasty-treats-type-treats-p {
+    border-left: 2px solid #8DC73F;
+    color: #999999;
+}
 
 /* //////////////////////// CAROUSEL //////////////////////////////////// */
 .carousel-transparent-line-top {
