@@ -74,6 +74,9 @@ html, body {
     background-color: #8DC73F;
 }
 
+.hvr-underline-from-center:before {
+    height: 2px ;
+}
 .navbar-nav .hvr-underline-from-center:before {
     background: #80b735;
 }
@@ -326,9 +329,21 @@ a.thumbnail:focus {
 
 
 
+/* /////////////////////// logo /////////////////////////*/
 
+.bifit-ka-logo {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+}
+.navbar-header {
+    width: 30%;
+}
 
 /************************ Buutons green index2 *******************/
+.btn{
+    border: none;
+}
 .buttons-dogs-page {
     color: white;
     background-color: #8DC73F;
@@ -358,7 +373,7 @@ a.thumbnail:focus {
     top: -30px;
 
 }
-/*********************** Ingo paragraph for food *******************/
+/*********************** Info paragraph for food *******************/
 .info-paragraph {
     color: #999999;
 }
