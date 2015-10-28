@@ -382,6 +382,16 @@ a.thumbnail:focus {
 #promo-products .caption {
     padding-top: 25px;
 }
+
+/* *********** BOWWOW title ************* */
+.promo-products-bowwow-p {
+    font-weight: bold;
+}
+
+.promo-products-type-treats-p {
+    border-left: 2px solid #8DC73F;
+    color: #999999;
+}
 /* ////////////////////////////////////////////////////////////////// */
 
 /* /////////////////////////// Curious Events///////////////////////// */
@@ -428,8 +438,10 @@ a.thumbnail:focus {
     height: 85px;
 }
 
-.curiouse-events-green-div img {
-
+.curiouse-events-ecopet {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
 }
 
 .curiouse-events-hr1 {
