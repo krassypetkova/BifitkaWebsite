@@ -564,3 +564,20 @@ a.thumbnail:focus {
     top: 6px;
 }
 /* //////////////////////////////////////////////////// */
+.footer-h4-lines {
+    margin-bottom: 15%;
+}
+
+.footer-line-green {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    border-bottom: 2px solid #80b735;
+}
+
+.footer-line-brown {
+    display: inline-block;
+    float: left;
+    width: 80%;
+    border-bottom: 2px solid #8F827A;
+}
