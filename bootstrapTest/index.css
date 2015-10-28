@@ -18,6 +18,10 @@ html, body {
     color: white;
 }
 
+.navbar-nav {
+    margin: 0 -15px 0 0;
+}
+
 .navbar-nav > li > a {
     line-height: inherit;
 }
@@ -245,14 +249,19 @@ a.thumbnail:focus {
 /* ******************* logo ******************** */
 
 .bifit-ka-logo {
-    position: relative;
-    bottom: 20px;
+/*    position: relative;
+    bottom: 18px;*/
     z-index: 1;
-    width: 65%;
+    width: 200px;
+    display: block;
+    float: left;
 }
-.navbar-header {
-    width: 30%;
+@media (max-width: 992px) {
+    .bifit-ka-logo {
+        width: 165px;
+    }
 }
+
 
 /************************ Buutons green index2 *******************/
 .btn{
