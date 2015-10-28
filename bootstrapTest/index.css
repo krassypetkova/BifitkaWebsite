@@ -26,9 +26,9 @@ html, body {
     border-top: 12px solid #80b735;
 }
 .navbar-inverse .navbar-nav > li > a {
-    color: #656565;
+    color: #676767;
     font-size: 1.1em;
-    font-weight: 300;
+    font-weight: bold;
     padding: 15px;
 }
 
@@ -49,9 +49,6 @@ html, body {
 
 .navbar-inverse .navbar-nav li a:hover {
     color: #656565;
-    /*background-color: #72a330;
-    transition: 0.7s all linear;
-    height: 100%;*/
 }
 
 .navbar-inverse .navbar-toggle {
@@ -80,35 +77,6 @@ html, body {
 .navbar-nav .hvr-underline-from-center:before {
     background: #80b735;
 }
-/* .navbar {
-    margin: 0;
-    border: 0;
-    min-height: 0;
-}
-.navbar-default {
-    background-color: #8DC73F;
-}
-
-.navbar .nav  a {
-    color: white;
-}lls > li.active > a:focu
-.nav-pills > li {
-    display: inline-block;
-    float: none;
-}
-#nav .nav.nav-pills {
-    margin: 0 auto;
-    text-align: right;
-}
-
-.nav-pis {
-    background-color: forestgreen;
-}
-
-.nav-pills > li.active > a, .nav > li > a:hover,
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
-    background-color: greenyellow;
-} */
 /**************************************************/
 
 /**************** H1-lines **********************/
@@ -161,12 +129,6 @@ h1.heading-lines-around-hw:before {
     right: 0;
 }
 
-
-h1.heading-lines-around > span {
-
-}
-
-
 /************** Carousel ***********************/
 .carousel-fade .carousel-inner .item {
     opacity: 0;
@@ -175,26 +137,27 @@ h1.heading-lines-around > span {
     -o-transition-property: opacity;
     transition-property: opacity;
 }
+
 .carousel-fade .carousel-inner .active {
     opacity: 1;
 }
+
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
     left: 0;
     opacity: 0;
     z-index: 1;
 }
+
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
     opacity: 1;
 }
+
 .carousel-fade .carousel-control {
     z-index: 2;
 }
-/*#carousel-example-generic, .carousel-inner {
-    width: auto;
-    height: 400px;
-}*/
+
 #carousel-example-generic .item > img {
     height: 580px;
     width: 100%;
@@ -245,37 +208,7 @@ a.dp-text-green:hover {
     text-decoration: underline;
 }
 /************************************************/
-
-/*********** Partners ***************************/
-#partners > div {
-    /*
-        display: inline-block;
-
-        margin: 0 60px;
-
-        display: flex;
-        */
-}
-#partners .thumbnail {
-    /*width: 17%;*/
-    float: left;
-    margin: 0 1.8763%;
-    border: none;
-}
-
-#partners .thumbnail:first-child {
-    margin-left: 0;
-}
-
-#partners .thumbnail:last-child {
-    margin-right: 0;
-}
-
-#partners .thumbnail img {
-    width: 120px;
-    /*height: 100px;*/
-}
-/**************** SECTIONs *******************************/
+/**************** SECTIONs *******************/
 
 section {
     padding: 25px 0;
@@ -284,29 +217,6 @@ section {
 section .heading-lines-around, section .heading-lines-around-hw {
     margin-bottom: 40px;
 }
-
-/************* FOOTER **************************/
-
-/*/!*
-#footer {
-    margin-top: 80px;
-*!/
-}
-
- #footer .nav-pills img {
-     width: 30px;
- }
-
- #footer .nav-pills > img {
-     width: 160px;
-     margin-right: 20px;
-}
-
- #footer .nav-pills {
-     text-align: center;
-     padding: 30px 0;
- }*/
-/********************************************/
 
  /************** Top Products **** Partners ***** green-pics ***************/
 
@@ -329,12 +239,16 @@ a.thumbnail:focus {
 
 
 
-/* /////////////////////// logo /////////////////////////*/
+
+/* ---------------------------------------------------INDEX 2 ---------------------------------------------- */
+
+/* ******************* logo ******************** */
 
 .bifit-ka-logo {
     position: relative;
+    bottom: 20px;
     z-index: 1;
-    width: 50%;
+    width: 65%;
 }
 .navbar-header {
     width: 30%;
@@ -581,9 +495,6 @@ a.thumbnail:focus {
     padding-top: 25px;
     padding-bottom: 20px;
 }
-/****************** Categories *******************************/
-
-/******************* Adres ******************************/
 
 /******************* Social media *****************************/
 .footer-social-media-h4 {
@@ -626,7 +537,7 @@ a.thumbnail:focus {
     z-index: 1;
 }
 
- /* copy right */
+ /* ********** copy right************* */
 #footer-section .cpy-right {
     background-color: #80b735;
 }
