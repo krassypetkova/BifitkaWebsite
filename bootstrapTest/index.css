@@ -337,6 +337,8 @@ a.thumbnail:focus {
 }
 /* ////////////////////////////////////////////////////////////////////// */
 
+
+
 /* ////////////////////////// FOR US ////////////////////////////////// */
 #for-us {
     padding-top: 60px;
@@ -360,11 +362,6 @@ a.thumbnail:focus {
 }
 /* ///////////////////////////////////////////////////////////////////// */
 
-/* ***************** short-user-msg ********************* */
-#short-user-msg {
-    width: 100%;
-}
-
 
 /* /////////////////////////// Promo Products /////////////////////// */
 .bowwow-name-food-promo-products {
@@ -385,12 +382,16 @@ a.thumbnail:focus {
 
 /* *********** BOWWOW title ************* */
 .promo-products-bowwow-p {
+    padding-right: 10px;
+    display: inline-block;
     font-weight: bold;
 }
 
 .promo-products-type-treats-p {
     border-left: 2px solid #8DC73F;
-    color: #999999;
+    color: #999;
+    display: inline-block;
+    padding-left: 10px;
 }
 /* ////////////////////////////////////////////////////////////////// */
 
@@ -565,19 +566,20 @@ a.thumbnail:focus {
 }
 /* //////////////////////////////////////////////////// */
 .footer-h4-lines {
-    margin-bottom: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .footer-line-green {
     display: inline-block;
     float: left;
-    width: 20%;
+    width: 25%;
     border-bottom: 2px solid #80b735;
 }
 
 .footer-line-brown {
     display: inline-block;
     float: left;
-    width: 80%;
+    width: 75%;
     border-bottom: 2px solid #8F827A;
 }
