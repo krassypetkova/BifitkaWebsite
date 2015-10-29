@@ -2,7 +2,7 @@
 html, body {
     font-family: Roboto;
 }
-/**************** SECTIONs *************/
+/*** SECTIONs heading-lines-around- ***/
 section {
     padding: 25px 0;
 }
@@ -106,18 +106,6 @@ h1.heading-lines-around:before {
     h1.heading-lines-around span, h1.heading-lines-around-hw span {
         padding: 0 10px;
     }
-}
-
-
-h1.heading-lines-around-hw:before {
-    background: #8DC73F;
-    content: "";
-    display: block;
-    height: 2px;
-    position: absolute;
-    top: 49%;
-    width: 100%;
-    right: 0;
 }
 /****************************************/
 /* ////////////////////////////////////////////////////////////////////////////// */
@@ -351,10 +339,8 @@ h1.heading-lines-around-hw:before {
     border-bottom: 5px solid #DADCE4;
     border-radius: 0;
     margin-top: 30px;
-    font-size: 22px;
-    padding-left: 24px;
-    padding-right: 24px;
     padding: 5px 24px;
+    font-size: 22px;
 }
 /* //////////////////////////////////////////////////////////////////////////////// */
 
