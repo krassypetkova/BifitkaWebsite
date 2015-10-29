@@ -1,9 +1,129 @@
-/*******************************/
+/* /////////////////// Style Of Repetitive Elements //////////////////////////////////// */
 html, body {
     font-family: Roboto;
 }
+/**************** SECTIONs *************/
+section {
+    padding: 25px 0;
+}
 
-/************* NAVBAR ***********/
+section .heading-lines-around, section .heading-lines-around-hw {
+    margin-bottom: 40px;
+}
+/****************************************/
+
+/******** Buutons green index2 **********/
+.btn{
+    border: none;
+}
+
+.btn-default:hover {
+    color: #FFFFFF;
+    border-color: #64902a;
+    background-color: #8DC73F;
+}
+
+.btn-default:active {
+    color: #FFFFFF;
+    border-color: #64902a;
+    background-color: #8DC73F;
+
+}
+.btn-default:focus {
+    color: #f5f5f5;
+    border-color: #64902a;
+    background-color: #8DC73F;
+}
+
+.buttons-dogs-page {
+    color: white;
+    background-color: #8DC73F;
+    border-bottom: 4px solid #bcde8e;
+    border-radius: 0;
+}
+/****************************************/
+
+/********** Background color ************/
+.background-color-section {
+    background-color: #F6F2EF;
+}
+/****************************************/
+
+/*** Gray heading + big green heading ***/
+.gray-heading {
+    font-size: 26px;
+    color: #999999;
+}
+
+.big-green-heading {
+    font-size: 40px;
+    color:  #8DC73F;
+    position: relative;
+    top: -30px;
+
+}
+/****************************************/
+
+/***** Info paragraph for food *********/
+.info-paragraph {
+    color: #999999;
+}
+/****************************************/
+
+/********* H1-lines ********************/
+h1 {
+    font-size: 25px;
+}
+
+h1.heading-lines-around, h1.heading-lines-around-hw {
+    position: relative;
+    text-align: center;
+}
+h1.heading-lines-around span, h1.heading-lines-around-hw span {
+    background: #fff;
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+}
+
+h1.heading-lines-around:before {
+    background: #8DC73F;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 49%;
+    width: 50%;
+    right: 25%;
+}
+
+@media (max-width: 768px) {
+    h1.heading-lines-around:before {
+        width: 100%;
+        right: 0;
+    }
+
+    h1.heading-lines-around span, h1.heading-lines-around-hw span {
+        padding: 0 10px;
+    }
+}
+
+
+h1.heading-lines-around-hw:before {
+    background: #8DC73F;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 49%;
+    width: 100%;
+    right: 0;
+}
+/****************************************/
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+
+/* //////////////////////////////// NAVBAR  //////////////////////////////////// */
 #dogs-navbar-header > .container {
     padding: 17px 0;
 }
@@ -96,59 +216,27 @@ html, body {
 .navbar-nav .hvr-underline-from-center:before {
     background: #80b735;
 }
-/**************************************************/
 
-/**************** H1-lines **********************/
-h1 {
-    font-size: 25px;
-}
+/* ******************* logo **************** */
 
-h1.heading-lines-around, h1.heading-lines-around-hw {
-    position: relative;
-    text-align: center;
-}
-h1.heading-lines-around span, h1.heading-lines-around-hw span {
-    background: #fff;
-    padding: 0 30px;
-    position: relative;
+.bifit-ka-logo {
+    /*    position: relative;
+        bottom: 18px;*/
     z-index: 1;
-}
-
-h1.heading-lines-around:before {
-    background: #8DC73F;
-    content: "";
+    width: 200px;
     display: block;
-    height: 2px;
-    position: absolute;
-    top: 49%;
-    width: 50%;
-    right: 25%;
+    float: left;
 }
-
-@media (max-width: 768px) {
-    h1.heading-lines-around:before {
-        width: 100%;
-        right: 0;
-    }
-
-    h1.heading-lines-around span, h1.heading-lines-around-hw span {
-        padding: 0 10px;
+@media (max-width: 992px) {
+    .bifit-ka-logo {
+        width: 165px;
     }
 }
+/********************************************/
+/* /////////////////////////////////////////////////////////////////////////////// */
 
 
-h1.heading-lines-around-hw:before {
-    background: #8DC73F;
-    content: "";
-    display: block;
-    height: 2px;
-    position: absolute;
-    top: 49%;
-    width: 100%;
-    right: 0;
-}
-
-/************** Carousel ***********************/
+/* ////////////////////////// CAROUSEL /////////////////////////////////////////// */
 .carousel-fade .carousel-inner .item {
     opacity: 0;
     -webkit-transition-property: opacity;
@@ -182,166 +270,7 @@ h1.heading-lines-around-hw:before {
     width: 100%;
     object-fit: cover;
 }
-
-/************ Promo Product ******************/
-
-.dp-promo-product-rapper {
-    padding: 20px;
-    background-color: #8DC73F;
-    color: white;
-}
-
-.dp-promo-product-rapper > h1 {
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.dp-promo-product-rapper > img {
-    float: right;
-    margin-top: 30px;
-}
-
-.btn-default:focus {
-    color: #64902a;
-}
 /*******************************************/
-
-/***************** Top NEWs ****************/
-a:focus {
-    color: #64902a;
-}
-
-.top-news-pic {
-    margin-top: 25px;
-}
-/*******************************************/
-
-/********** Color green button *************/
-
-.dp-text-green {
-    color: #64902a;
-}
-
-a.dp-text-green:hover {
-    color: #64902a;
-    text-decoration: underline;
-}
-/************************************************/
-/**************** SECTIONs *******************/
-
-section {
-    padding: 25px 0;
-}
-
-section .heading-lines-around, section .heading-lines-around-hw {
-    margin-bottom: 40px;
-}
-
- /************** Top Products **** Partners ***** green-pics ***************/
-
-a.thumbnail:hover {
-    border-color:  #8DC73F;
-}
-
-a.thumbnail:focus {
-    border-color: #64902a;
-}
-/****************** FOR US video ********************************/
-.video-frontpage {
-    min-height: 40vh;
-    max-height: 50vh;
-}
- /****************************************************************/
-
-
-
-
-
-
-
-/* ---------------------------------------------------INDEX 2 ---------------------------------------------- */
-
-/* ******************* logo ******************** */
-
-.bifit-ka-logo {
-/*    position: relative;
-    bottom: 18px;*/
-    z-index: 1;
-    width: 200px;
-    display: block;
-    float: left;
-}
-@media (max-width: 992px) {
-    .bifit-ka-logo {
-        width: 165px;
-    }
-}
-
-
-/************************ Buutons green index2 *******************/
-.btn{
-    border: none;
-}
-.buttons-dogs-page {
-    color: white;
-    background-color: #8DC73F;
-    border-bottom: 4px solid #bcde8e;
-    border-radius: 0;
-}
-
-.btn-default:hover {
-    color: #FFFFFF;
-    border-color: #64902a;
-    background-color: #8DC73F;
-}
-/******************* Background color ********************************/
-.background-color-section {
-    background-color: #F6F2EF;
-}
-/*********************** Gray heading + big green heading ******************************************/
-.gray-heading {
-    font-size: 26px;
-    color: #999999;
-}
-
-.big-green-heading {
-    font-size: 40px;
-    color:  #8DC73F;
-    position: relative;
-    top: -30px;
-
-}
-/*********************** Info paragraph for food *******************/
-.info-paragraph {
-    color: #999999;
-}
-
-
-
-/* ////////////////////// tasty-treats ///////////////////////////*/
-
-/***************** Subtitle Paragraph-name food index2  ***************************/
-.bowwow-name-food {
-    font-weight: bold;
-}
-
-/********************* no border pics **********************************/
-.no-border {
-    border: none;
-}
-/***************/
-
-/*//////////////////////////// BOW WOW type treats - title /////////////////////////////////////////*/
-.tasty-treats-bowwow-p {
-    font-weight: bolder;
-}
-
-.tasty-treats-type-treats-p {
-    border-left: 2px solid #8DC73F;
-    color: #999999;
-}
-
-/* //////////////////////// CAROUSEL //////////////////////////////////// */
 .carousel-transparent-line-top {
     position: absolute;
     top: 0px;
@@ -359,11 +288,78 @@ a.thumbnail:focus {
     background-color: rgba(255,255,255,0.3);
     z-index: 1;
 }
-/* ////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////// */
 
 
+/* //////////////////////////////// TASTY TREATS ////////////////////////////////*/
 
-/* ////////////////////////// FOR US ////////////////////////////////// */
+/*** Subtitle Paragraph-name food index2 ***/
+.bowwow-name-food {
+    font-weight: bold;
+}
+
+/************** no border pics ************/
+.no-border {
+    border: none;
+}
+/***** BOW WOW type treats - title ********/
+.tasty-treats-bowwow-p {
+    font-weight: bolder;
+}
+
+.tasty-treats-type-treats-p {
+    border-left: 2px solid #8DC73F;
+    color: #999999;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////// SHORT USER MSG ////////////////////////////////////// */
+.short-user-background {
+    background-image: url("./img_index2/user-msg.jpg");
+    width: 100%;
+    height: 380px;
+    border-bottom: 20px solid rgba(97,80,70,0.7);
+}
+
+.short-user-white {
+    color: #FFFEFB;
+}
+
+.short-user-div {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.short-user-p1 {
+    font-size: 25px;
+}
+.short-user-p2 {
+    color: #ACACAA;
+    font-size: 40px;
+}
+.short-user-p3 {
+    display: inline-block;
+    width: 35%;
+}
+
+/***************** Button short msg ************/
+
+.short-user-msg-button {
+    color: #715142;
+    background-color: #FFFFFF;
+    border-bottom: 5px solid #DADCE4;
+    border-radius: 0;
+    margin-top: 30px;
+    font-size: 22px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding: 5px 24px;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ///////////////////////////////// FOR US /////////////////////////////////////// */
 #for-us {
     padding-top: 60px;
 }
@@ -384,10 +380,25 @@ a.thumbnail:focus {
     padding-bottom: 40px;
     text-align: justify;
 }
-/* ///////////////////////////////////////////////////////////////////// */
+/*************** FOR US video ************/
+.video-frontpage {
+    min-height: 40vh;
+    max-height: 50vh;
+}
+/*****************************************/
+
+/* //////////////////////////////////////////////////////////////////////////////// */
 
 
-/* /////////////////////////// Promo Products /////////////////////// */
+/* ///////////////////////////////// PROMO PRODUCTS /////////////////////////////// */
+a:focus {
+    color: #64902a;
+}
+
+.promo-products-pic {
+    margin-top: 25px;
+}
+
 .bowwow-name-food-promo-products {
     font-size: 14px;
     font-weight: bold;
@@ -417,9 +428,10 @@ a.thumbnail:focus {
     display: inline-block;
     padding-left: 10px;
 }
-/* ////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////// */
 
-/* /////////////////////////// Curious Events///////////////////////// */
+
+/* //////////////////////////////////// CURIOUSE EVENTS ////////////////////////////// */
 #curiouse-events-heading {
     text-align: center;
 }
@@ -506,13 +518,14 @@ a.thumbnail:focus {
 .curiouse-events-time {
     color: #8DC73F;
 }
-/* ///////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////// */
 
-/*///////////////////// FOOTER /////////////////////////*/
+
+/* ////////////////////////////// FOOTER ///////////////////////////////////////// */
 #footer-section {
     padding: 0px;
 }
-/****************** Brawn all ********************************/
+/****************** Brawn all *******************/
 .footer-color-white {
     color: #FFFFFF;
 }
@@ -530,15 +543,15 @@ a.thumbnail:focus {
     padding-bottom: 20px;
 }
 
-/******************* Social media *****************************/
+/******************* Social media ***************/
 .footer-social-media-h4 {
     margin-top: 20px;
 }
-/********************* last events ****************************/
+/********************* last events **************/
 .footer-last-events-p {
     text-align: justify;
 }
-/********************** products ****************************/
+/********************** products ****************/
 .footer-products > .input-group > input {
     margin-bottom: 16px;
 }
@@ -552,7 +565,7 @@ a.thumbnail:focus {
 }
 
 
-/* ************ footer-img-div ************************* */
+/* ************ footer-img-div ******************/
 .footer-img-div {
     position: relative;
 }
@@ -575,7 +588,7 @@ a.thumbnail:focus {
     z-index: 1;
 }
 
- /* ********** copy right************* */
+ /* ************** copy right************* */
 #footer-section .cpy-right {
     background-color: #80b735;
 }
@@ -589,7 +602,7 @@ a.thumbnail:focus {
     position: relative;
     top: 6px;
 }
-/* //////////////////////////////////////////////////// */
+/* **************************************** */
 .footer-h4-lines {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -608,3 +621,4 @@ a.thumbnail:focus {
     width: 75%;
     border-bottom: 2px solid #8F827A;
 }
+/* /////////////////////////////////////////////////////////////////////////////// */
