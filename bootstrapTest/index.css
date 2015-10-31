@@ -162,6 +162,10 @@ h1.heading-lines-around:before {
 .navbar-inverse .navbar-nav li a:hover {
     color: #656565;
 }
+
+.navbar-inverse .navbar-nav li a:focus {
+    color: #656565;
+}
 /*hamburger menu hover efect*/
 /*.navbar-inverse .navbar-nav li a:hover {
     color: #fff;
@@ -484,6 +488,20 @@ a:focus {
     position: absolute;
     right: 5px;
     bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .curiouse-events-ecopet {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .curiouse-events-ecopet {
+        width: 75px;
+        right: 5px;
+        bottom: 14px;
+    }
 }
 
 .curiouse-events-hr1 {
