@@ -226,11 +226,11 @@ h1.heading-lines-around:before {
 }
 
 .big-green-heading {
-    font-size: 40px;
+    font-size: 43px;
     color:  #8DC73F;
     position: relative;
     top: -30px;
-
+    font-weight: bold;
 }
 /****************************************/
 /*** SECTIONs heading-lines-around- ***/
@@ -242,6 +242,38 @@ section .heading-lines-around, section .heading-lines-around-hw {
     margin-bottom: 40px;
 }
 /****************************************/
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////// Sub navigation ///////////////////////////////////// */
+#products-catalog-subnavigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+#products-catalog-subnavigation ul > li {
+    display: inline-block;
+}
+
+#products-catalog-subnavigation ul > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: #656565;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#products-catalog-subnavigation .hvr-underline-from-center:before {
+    background: #8DC73F;
+}
+
+#products-catalog-subnavigation .hvr-underline-from-center {
+    padding-bottom: 10px;
+}
 /* /////////////////////////////////////////////////////////////////////////////// */
 
 /* ////////////////////////////// PRODUCTS CATALOG /////////////////////////////// */
