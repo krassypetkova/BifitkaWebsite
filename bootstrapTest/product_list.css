@@ -70,11 +70,14 @@ html, body {
 .navbar-inverse .navbar-nav > .active > a {
     background-color: #FFFFFF;
     color: #80b735;
-
 }
 
 .navbar-inverse .navbar-nav > .active > a:hover {
     background-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav li a:focus {
+    color: #656565;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
