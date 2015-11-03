@@ -267,3 +267,105 @@ h1.heading-lines-around:before {
     color: #999999;
 }
 /* //////////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////// FOOTER ///////////////////////////////////////// */
+#footer-section {
+    padding: 0px;
+}
+/****************** Brawn all *******************/
+.footer-color-white {
+    color: #FFFFFF;
+}
+
+.footer-color-brawn {
+    color: #A5948A;
+}
+#footer-section > .footer-brown {
+    background: #746457;
+    border-bottom: 10px solid #837262;
+}
+
+.footer-brown {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+/******************* Social media ***************/
+.footer-social-media-h4 {
+    margin-top: 20px;
+}
+/********************* last events **************/
+.footer-last-events-p {
+    text-align: justify;
+}
+/********************** products ****************/
+.footer-products > .input-group > input {
+    margin-bottom: 16px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-color: #8DC73F;
+}
+
+
+/* ************ footer-img-div ******************/
+.footer-img-div {
+    position: relative;
+}
+
+.footer-img-div > img {
+    display: block;
+}
+
+
+#footer-section > .footer-img-div > img {
+    width: 100%;
+}
+
+.footer-transparent-line-bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 10px;
+    background-color: rgba(114, 163, 48, 0.3);
+    z-index: 1;
+}
+
+/* ************** copy right************* */
+#footer-section .cpy-right {
+    background-color: #80b735;
+}
+#footer-section .cpy-right p {
+    padding: 15px 0;
+    margin: 0;
+}
+
+#footer-section .cpy-right img {
+    float: right;
+    position: relative;
+    top: 6px;
+}
+/* **************************************** */
+.footer-h4-lines {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.footer-line-green {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    border-bottom: 2px solid #80b735;
+}
+
+.footer-line-brown {
+    display: inline-block;
+    float: left;
+    width: 75%;
+    border-bottom: 2px solid #8F827A;
+}
+/* /////////////////////////////////////////////////////////////////////////////// */
