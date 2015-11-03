@@ -1,3 +1,108 @@
+/* /////////////////// Style Of Repetitive Elements //////////////////////////////////// */
+html, body {
+    font-family: Roboto;
+}
+/*** SECTIONs heading-lines-around- ***/
+section {
+    padding: 25px 0;
+}
+
+section .heading-lines-around, section .heading-lines-around-hw {
+    margin-bottom: 40px;
+}
+/****************************************/
+
+/******** Buutons green index2 **********/
+.btn{
+    border: none;
+}
+
+.btn-default:hover {
+    color: #FFFFFF;
+    border-color: #64902a;
+    background-color: #8DC73F;
+}
+
+.btn-default:active {
+    color: #FFFFFF;
+    border-color: #64902a;
+    background-color: #8DC73F;
+}
+
+.btn-default:focus {
+    color: #f5f5f5;
+    border-color: #64902a;
+    background-color: #8DC73F;
+}
+
+.buttons-dogs-page {
+    color: white;
+    background-color: #8DC73F;
+    border-bottom: 4px solid #bcde8e;
+    border-radius: 0;
+}
+/****************************************/
+/*** Gray heading + big green heading ***/
+.gray-heading {
+    font-size: 26px;
+    color: #999999;
+}
+
+.big-green-heading {
+    font-size: 40px;
+    color:  #8DC73F;
+    position: relative;
+    top: -30px;
+
+}
+/****************************************/
+
+/***** Info paragraph for food *********/
+.info-paragraph {
+    color: #999999;
+}
+/****************************************/
+
+/********* H1-lines ********************/
+h1 {
+    font-size: 25px;
+}
+
+h1.heading-lines-around, h1.heading-lines-around-hw {
+    position: relative;
+    text-align: center;
+}
+h1.heading-lines-around span, h1.heading-lines-around-hw span {
+    background: #fff;
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+}
+
+h1.heading-lines-around:before {
+    background: #8DC73F;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 49%;
+    width: 50%;
+    right: 25%;
+}
+
+@media (max-width: 768px) {
+    h1.heading-lines-around:before {
+        width: 100%;
+        right: 0;
+    }
+
+    h1.heading-lines-around span, h1.heading-lines-around-hw span {
+        padding: 0 10px;
+    }
+}
+/****************************************/
+/* ////////////////////////////////////////////////////////////////////////////// */
+
 /* //////////////////////////////// NAVBAR  //////////////////////////////////// */
 #dogs-navbar-header > .container {
     padding: 17px 0;
@@ -114,6 +219,10 @@
 /* /////////////////////////////////////////////////////////////////////////////// */
 
 /* ////////////////////////////// IMAGE section /////////////////////////////////// */
+#image-section {
+    position: relative;
+}
+
 #image-section > .time-for-play-img {
     width: 100%;
 }
@@ -136,3 +245,25 @@
     z-index: 1;
 }
 /* /////////////////////////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////// TASTY TREATS ////////////////////////////////*/
+
+/*** Subtitle Paragraph-name food index2 ***/
+.bowwow-name-food {
+    font-weight: bold;
+}
+
+/************** no border pics ************/
+.no-border {
+    border: none;
+}
+/***** BOW WOW type treats - title ********/
+.tasty-treats-bowwow-p {
+    font-weight: bolder;
+}
+
+.tasty-treats-type-treats-p {
+    border-left: 2px solid #8DC73F;
+    color: #999999;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
