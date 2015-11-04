@@ -308,7 +308,7 @@ h1.heading-lines-around:before {
 
 /* ////////////////////////// SHORT USER MSG ////////////////////////////////////// */
 .short-user-background {
-    background-image: url("./img_index2/user-msg.jpg");
+    background-image: url("./img_index2/short-img-ps.jpg");
     width: 100%;
     height: 380px;
     border-bottom: 20px solid rgba(97,80,70,0.7);
