@@ -288,7 +288,9 @@ h1.heading-lines-around:before {
     top: 20%;
     left: 20%;*/
     color: #FFFFFF;
+    margin-top: 60px;
 }
+
 
 .delicious-moments-p1 {
     font-size: 25px;
@@ -304,7 +306,7 @@ h1.heading-lines-around:before {
 }
 
 .delicious-moments-p3 {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .delicious-moments-btn {
@@ -313,6 +315,115 @@ h1.heading-lines-around:before {
     padding-right: 23px;
     margin-top: 10px;
 }
+
+@media (min-width: 350px) and (max-width: 399px) {
+    .delicious-moments-div-p {
+        margin-top: 82px;
+    }
+
+    .delicious-moments-p1 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .delicious-moments-p2 {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .delicious-moments-p3 {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .delicious-moments-btn {
+        font-size: 16px;
+        margin-left: 95px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 566px) {
+    .delicious-moments-div-p {
+        margin-top: 76px;
+    }
+
+    .delicious-moments-p1 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .delicious-moments-p2 {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .delicious-moments-p3 {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .delicious-moments-btn {
+        font-size: 16px;
+        margin-left: 40%;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 567px) and (max-width: 653px) {
+    .delicious-moments-div-p {
+        margin-top: 76px;
+    }
+
+    .delicious-moments-p1 {
+        font-size: 20px;
+    }
+
+    .delicious-moments-p2 {
+        font-size: 30px;
+        width: 50%;
+    }
+
+    .delicious-moments-p3 {
+        font-size: 12px;
+    }
+
+    .delicious-moments-btn {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 654px) and (max-width: 991px) {
+    .delicious-moments-div-p {
+        margin-top: 75px;
+    }
+
+    .delicious-moments-p1 {
+        font-size: 20px;
+    }
+
+    .delicious-moments-p2 {
+        font-size: 35px;
+        width: 50%;
+    }
+
+    .delicious-moments-p3 {
+        font-size: 13px;
+    }
+
+    .delicious-moments-btn {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .delicious-moments-p2 {
+        font-size: 35px;
+        width: 37%;
+}
+
+
+
 /* /////////////////////////////////////////////////////////////////////////////// */
 
 /* //////////////////////////////// TASTY TREATS ////////////////////////////////*/
